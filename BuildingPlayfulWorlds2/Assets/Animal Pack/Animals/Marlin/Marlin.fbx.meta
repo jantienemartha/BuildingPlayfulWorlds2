@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 1901468ad15a4e14885f65a8ac81e315
+timeCreated: 1452070532
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: fin.L
+    100002: fin.L_end
+    100004: fin.R
+    100006: fin.R_end
+    100008: head
+    100010: jaw
+    100012: jaw_end
+    100014: //RootNode
+    100016: Marlin
+    100018: metarig
+    100020: spine
+    100022: spine.001
+    100024: spine.002
+    100026: spine.003
+    100028: spine.003_end
+    400000: fin.L
+    400002: fin.L_end
+    400004: fin.R
+    400006: fin.R_end
+    400008: head
+    400010: jaw
+    400012: jaw_end
+    400014: //RootNode
+    400016: Marlin
+    400018: metarig
+    400020: spine
+    400022: spine.001
+    400024: spine.002
+    400026: spine.003
+    400028: spine.003_end
+    4300000: Marlin
+    7400000: metarig|Die
+    7400002: metarig|Eat
+    7400004: metarig|Idle
+    7400006: metarig|Swim
+    9500000: //RootNode
+    13700000: Marlin
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: metarig|Die
+      takeName: metarig|Die
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marlin
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/head
+        weight: 1
+      - path: metarig/head/fin.L
+        weight: 1
+      - path: metarig/head/fin.L/fin.L_end
+        weight: 1
+      - path: metarig/head/fin.R
+        weight: 1
+      - path: metarig/head/fin.R/fin.R_end
+        weight: 1
+      - path: metarig/head/jaw
+        weight: 1
+      - path: metarig/head/jaw/jaw_end
+        weight: 1
+      - path: metarig/spine
+        weight: 1
+      - path: metarig/spine/spine.001
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003/spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: metarig|Eat
+      takeName: metarig|Eat
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marlin
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/head
+        weight: 1
+      - path: metarig/head/fin.L
+        weight: 1
+      - path: metarig/head/fin.L/fin.L_end
+        weight: 1
+      - path: metarig/head/fin.R
+        weight: 1
+      - path: metarig/head/fin.R/fin.R_end
+        weight: 1
+      - path: metarig/head/jaw
+        weight: 1
+      - path: metarig/head/jaw/jaw_end
+        weight: 1
+      - path: metarig/spine
+        weight: 1
+      - path: metarig/spine/spine.001
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003/spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: metarig|Idle
+      takeName: metarig|Idle
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marlin
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/head
+        weight: 1
+      - path: metarig/head/fin.L
+        weight: 1
+      - path: metarig/head/fin.L/fin.L_end
+        weight: 1
+      - path: metarig/head/fin.R
+        weight: 1
+      - path: metarig/head/fin.R/fin.R_end
+        weight: 1
+      - path: metarig/head/jaw
+        weight: 1
+      - path: metarig/head/jaw/jaw_end
+        weight: 1
+      - path: metarig/spine
+        weight: 1
+      - path: metarig/spine/spine.001
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003/spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: metarig|Swim
+      takeName: metarig|Swim
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Marlin
+        weight: 1
+      - path: metarig
+        weight: 1
+      - path: metarig/head
+        weight: 1
+      - path: metarig/head/fin.L
+        weight: 1
+      - path: metarig/head/fin.L/fin.L_end
+        weight: 1
+      - path: metarig/head/fin.R
+        weight: 1
+      - path: metarig/head/fin.R/fin.R_end
+        weight: 1
+      - path: metarig/head/jaw
+        weight: 1
+      - path: metarig/head/jaw/jaw_end
+        weight: 1
+      - path: metarig/spine
+        weight: 1
+      - path: metarig/spine/spine.001
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003
+        weight: 1
+      - path: metarig/spine/spine.001/spine.002/spine.003/spine.003_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
